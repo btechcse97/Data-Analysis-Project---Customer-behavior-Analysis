@@ -34,24 +34,6 @@ Some important analysis performed in this project includes:
 * Product performance analysis
 * Identifying high-value customers
 
-## Example SQL Queries
-
-Average quantity of products purchased:
-SELECT p.product,
-AVG(o.quantity) AS avg_quantity
-FROM orders o
-JOIN products p
-ON o.product_id = p.product_id
-GROUP BY p.product;
-
-Customer total purchases greater than a threshold:
-SELECT c.name,
-SUM(o.quantity) AS total_quantity
-FROM orders o
-JOIN customers c
-ON c.customer_id = o.customer_id
-GROUP BY c.name
-HAVING SUM(o.quantity) > 600;
 
 ## Key Insights
 
