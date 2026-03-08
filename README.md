@@ -2,44 +2,75 @@
 
 ## Project Overview
 
-This project focuses on analyzing customer purchasing behavior using data analysis techniques. The dataset includes information about customers, products, and orders to understand buying patterns and trends.
+This project analyzes customer shopping behavior using a retail dataset to uncover purchasing patterns and business insights. Python was used for data exploration, SQL for answering business questions, and Power BI for building an interactive dashboard.
 
-The goal of this project is to identify useful insights such as popular products, high-value customers, and overall purchase behavior that can help businesses make data-driven decisions.
+The analysis focuses on customer demographics, product categories, purchase amounts, and shopping preferences to understand revenue trends and customer segments.
+
 
 ## Tools & Technologies Used
 
-* SQL
-* Data Analysis Techniques
 * CSV Dataset
-* GitHub for project hosting
+* SQL - PostGre
+* Jupyter Notebook
+* Power Bi
 
 ## Dataset Information
 
-The dataset used in this project contains information about:
+The dataset used in this project contains detailed information about customer shopping behavior in a retail store. Each record represents a purchase made by a customer and includes demographic, product, and transaction-related details.
 
-* Customers
-* Products
-* Orders
-* Quantity purchased
-  
-These datasets help analyze how customers interact with products and how frequently purchases are made.
+Key attributes in the dataset include:
+
+* Customer ID
+* Age
+* Gender
+* Item Purchased
+* Product Category
+* Purchase Amount (USD)
+* Location
+* Product Size
+* Product Color
+* Season of Purchase
+* Review Rating
+* Subscription Status
+* Shipping Type
+* Discount Applied
+* Promo Code Used
+* Previous Purchases
+* Payment Method
+* Purchase Frequency
+
+These attributes help analyze customer preferences, purchasing patterns, and product performance across different demographics and seasons.
+
 ![Dataset Preview](screenshots/Data_preview.png)
 
-## Analysis Performed
+## Business Analysis Performed
 
-Some important analysis performed in this project includes:
 
-* Average quantity of products purchased
-* Customer-wise total purchases
-* Product performance analysis
-* Identifying high-value customers
+The analysis in this project focuses on understanding customer purchasing behavior using business-driven questions. Key analysis includes:
+
+* Revenue comparison between male and female customers
+* Identifying customers who used discounts but still spent above the average purchase amount
+* Finding top products with the highest average review ratings
+* Comparing purchase amounts between Standard and Express shipping methods
+* Analyzing spending patterns of subscribed vs. non-subscribed customers
+* Identifying products with the highest percentage of discounted purchases
+* Segmenting customers into New, Returning, and Loyal based on previous purchases
+* Determining the most purchased products within each category
+* Evaluating the relationship between repeat buyers and subscription status
+* Analyzing revenue contribution across different age groups
 
 
 ## Key Insights
 
-* Some customers purchase significantly more products than others.
-* Certain products are ordered more frequently.
-* Customer behavior patterns can help businesses improve marketing strategies.
+The analysis revealed several important insights about customer shopping behavior:
+
+* Clothing category generated the highest revenue and sales among all product categories.
+* Young adult and middle-aged customers contribute the most to overall revenue.
+* Customers who use subscription services tend to spend slightly more on average.
+* Discount campaigns increase purchase activity but do not always reduce overall revenue.
+* Express shipping users generally have higher average purchase amounts compared to standard shipping.
+* Repeat customers and loyal buyers contribute significantly to total revenue.
+
 
 
 ## Power BI Dashboard
