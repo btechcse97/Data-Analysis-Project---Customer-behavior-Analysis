@@ -61,7 +61,7 @@ HAVING SUM(o.quantity) > 600;
 
 ## Power BI Dashboard
 
-![Customer Behavior Dashboard](screenshots/dashboard.png)
+![Customer Behavior Dashboard](screenshots/Dashboard.png)
 
 ## Acknowledgment
 
